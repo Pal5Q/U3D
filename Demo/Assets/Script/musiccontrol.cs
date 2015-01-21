@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class musiccontrol : MonoBehaviour {
 
@@ -36,7 +37,6 @@ public class musiccontrol : MonoBehaviour {
             else
                 Time.timeScale = 1;
         }
-        
     }
     float audiodelaytime = 50;
 	// Update is called once per frame
