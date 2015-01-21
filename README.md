@@ -27,3 +27,4 @@ FixedUpdate是根据时间来的，所以timeScale只会影响FixedUpdate的速�
    解决在暂停下的动画和粒子效果主要思路，利用Time.realtimeSinceStartup产生的差值，来模拟动画.
    
 demo中有几个简单的示例，比如Animator和粒子系统(Particle system)
+通过修改脚本中的timescalecontrol变量的bool值来控制是否采用TimeScale暂停和加速
